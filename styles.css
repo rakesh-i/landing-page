@@ -1,0 +1,48 @@
+*{
+    outline: 1px solid red;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.one{
+    background:#1f2937;
+    height: 525px;
+    /* flex:1; */
+}
+.two{
+    background:#ffffff;
+    height: 500px;
+}
+.three{
+    background:#e5e7eb;
+    height: 425px;
+}
+.four{
+    background:#ffffff;
+    height: 350px;
+}
+.footer{
+    background:#1f2937;
+    height: 100px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    gap:10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
