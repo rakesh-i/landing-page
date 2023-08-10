@@ -1,14 +1,8 @@
-*{
-    /* outline: 1px solid red; */
-}
 body{
     font-family: 'Roboto';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: space-between; */
 }
 
 .one{
@@ -61,7 +55,8 @@ body{
 
 .one .image{
     background-color: #6d747d;
-    padding:100px 200px;
+    padding: 50px 150px ;
+    flex:1;
 }
 
 .one ul{
@@ -99,6 +94,7 @@ body{
     display: flex;
     justify-content: center;
     gap:60px;
+    flex-wrap: wrap;
 }
 
 .two .content .info{
@@ -124,10 +120,10 @@ body{
 
 
 .three{
-    /* display: flex; */
+    display: flex; 
     background:#e5e7eb;
     /* flex-direction: column; */
-    /* justify-content: center; */
+    justify-content: center; 
     /* align-items: center; */
 }
 
@@ -152,14 +148,54 @@ body{
 
 }
  
-
-
-/*
 .four{
     background:#ffffff;
-    height: 350px;
+    /* display: flex; */
+    /* justify-content: center; */
+    padding: 80px 175px;
+
+    
 }
+
+.four .signup{
+    display: flex;
+    background: #3882f6 ;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: .5rem;
+    justify-content: center;
+    gap:50px;
+}
+
+.four .signup .head{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.four .signup .subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.four .signup button{
+    border: 2px solid;
+    background: #3882f6;
+    padding: 8px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: .5rem;
+    color: #e5e7eb;
+    border-color:#e5e7eb;
+    height: 40px;
+    margin-top: 10px;
+}
+
 .footer{
     background:#1f2937;
-    height: 100px;
-} */
+    text-align: center;
+    padding: 20px;
+    color: #e5e7eb;
+    font-size: 18px;
+} 
